@@ -6,6 +6,7 @@ A computer vision project that tracks student engagement during online classes u
 * Face Detection – Draws a box around the student’s face.
 * Focus Tracking – Detects if the student is looking at the screen or away.
 * Engagement Score - Show student engagement in percentage.
+* Engagement Graph - Plots a graph based on the engagement.
 * Sleep Detection – Detects if eyes remain closed for too long.
 * SQLite Database – Logs engagement data with timestamps.
 
