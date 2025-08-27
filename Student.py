@@ -84,8 +84,8 @@ while True:
 
     faces = detector(gray, 0)
 
-    cv2.rectangle(frame, (5, 5), (180, 45), (0, 0, 0), -1)
-    cv2.putText(frame, f"Faces: {len(faces)}", (12, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8,(0, 255, 0), 2)
+    #cv2.rectangle(frame, (5, 5), (180, 45), (0, 0, 0), -1)  Counter for faces, not in use currently
+    #cv2.putText(frame, f"Faces: {len(faces)}", (12, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8,(0, 255, 0), 2)
 
     focused_in_frame = False
 
